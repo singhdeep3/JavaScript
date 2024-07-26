@@ -18,6 +18,7 @@ let password = "";
 let passwordlength = 10;
 let checkCount = 0;
 handleSlider();
+setindicator("#ccc");
 
 // Functions
 
@@ -191,5 +192,3 @@ generateBtn.addEventListener("click", () => {
   //Strength Calculate
   calcStrength();
 });
-
-
